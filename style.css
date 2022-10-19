@@ -33,6 +33,7 @@ article{
 
 article a{
     color: rgb(33, 37, 41);
+    text-decoration: none;
 }
 
 article a:hover {
