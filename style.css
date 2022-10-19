@@ -13,10 +13,26 @@ header {
     background-size: cover;
 }
 
+.news:nth-child(odd) {
+    background-color: pink;
+}
+
 h1{
     color:dodgerblue;
     font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.news:nth-of-type(1)::before {
+    content: "New";
+    color: red;
+    margin-left: 20px;
+}
+
+.news:nth-of-type(2)::before {
+    content: "New";
+    color: red;
+    margin-left: 20px;
 }
 
 .news {
